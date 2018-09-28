@@ -16,6 +16,9 @@ class App extends Component {
             href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
+            data-test="not_in_prod_build"
+            data-cy="not_in_prod_build"
+            data-testid="not_in_prod_build"
           >
             Learn React
           </a>
