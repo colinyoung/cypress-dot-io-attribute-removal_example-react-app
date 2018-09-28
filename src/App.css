@@ -30,3 +30,11 @@
     transform: rotate(360deg);
   }
 }
+
+p#test {
+  color: green;
+}
+
+p#test[data-test='not_in_prod_build'] {
+  color: red;
+}

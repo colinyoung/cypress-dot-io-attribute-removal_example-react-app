@@ -8,20 +8,9 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
+          <p id="test" data-test="not_in_prod_build">
+            This text is only green in production
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-            data-test="not_in_prod_build"
-            data-cy="not_in_prod_build"
-            data-testid="not_in_prod_build"
-          >
-            Learn React
-          </a>
         </header>
       </div>
     );
